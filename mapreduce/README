@@ -22,3 +22,9 @@ RUNNING THE APPLICATION
 - Unzip the mapreduce-bin.zip to the preferred directory
 - Go to that directory
 - Run the startup script (startup.bat or startup.sh)
+
+Issues:
+
+1.Q:Server IPC version 9 cannot communicate with client version 4
+
+A:Upgrade the spring.data.hadoop.version from 1.0.0.RELEASE to 2.2.0.RELEASE
